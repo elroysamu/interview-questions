@@ -1,0 +1,28 @@
+Question No 1:
+Problem: Move Zeros to the end
+
+Description:
+Given an integer array, move all 0s to the end while maintaining the relative order of non-zero elements.
+
+Example:
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+
+
+
+Question No 2:
+Problem: Remove Duplicates from Sorted Array
+
+Description:
+Given a sorted array of integers nums, remove the duplicates in-place such that each element appears only once. Return the new length of the array after removing duplicates.
+You must do this without using extra space for another array — modify the input array in-place with O(1) extra memory.
+The order of elements should be maintained. You do not need to consider elements beyond the returned length.
+
+Example 1:
+Input: nums = [1,1,2]
+Output: 2, nums = [1,2,_]   // _ means any value beyond new length
+Explanation: The first two elements after removing duplicates are 1 and 2.
+
+Example 2:
+Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
